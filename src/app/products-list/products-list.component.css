@@ -1,0 +1,20 @@
+
+.items{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.item{
+    display: flex;
+    margin: auto;
+    width: 30%;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid black;
+    padding: 40px;
+}
+
+.selected{
+    background-color: aliceblue;
+}

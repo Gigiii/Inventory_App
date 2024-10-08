@@ -12,7 +12,7 @@ import { PriceDisplayComponent } from './price-display/price-display.component';
   standalone: true,
   imports: [ProductImageComponent, PriceDisplayComponent, ProductDepartmentComponent],
   templateUrl: './product-row.component.html',
-  styleUrl: './product-row.component.css'
+  styleUrl: './product-row.component.css',
 })
 export class ProductRowComponent {
 
