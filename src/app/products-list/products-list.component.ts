@@ -5,6 +5,7 @@ import { Component,
        } from '@angular/core';
 import { Product } from '../product.model';
 import { ProductRowComponent } from './product-row/product-row.component';
+import { CommonModule } from '@angular/common';
 
 /**
 * @ProductsList: A component for rendering all ProductRows and
@@ -13,7 +14,7 @@ import { ProductRowComponent } from './product-row/product-row.component';
 @Component({
   selector: 'products-list',
   standalone: true,
-  imports: [ProductRowComponent],
+  imports: [ProductRowComponent, CommonModule],
   templateUrl: './products-list.component.html',
   styleUrl: './products-list.component.css'
 })

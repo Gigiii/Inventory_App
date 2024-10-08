@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'price-display',
@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './price-display.component.css'
 })
 export class PriceDisplayComponent {
-
+  @Input() price!: number;
 }

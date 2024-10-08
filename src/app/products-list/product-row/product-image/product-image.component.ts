@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input, HostBinding } from '@angular/core';
+import { Product } from '../../../product.model';
 
 @Component({
   selector: 'product-image',
@@ -8,5 +9,5 @@ import { Component } from '@angular/core';
   styleUrl: './product-image.component.css'
 })
 export class ProductImageComponent {
-
+  @Input() product!: Product;
 }
